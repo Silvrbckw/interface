@@ -21,7 +21,7 @@ jobs:
           cache: 'yarn'
 
       - name: Synchronize
-        uses: crowdin/github-action@97aa99cbebfe99b964e3521e6421c1518146d4b9 # v1.4.12
+        uses: crowdin/github-action@9787f4fcb6a8450929673f1e8db841e8a5c35a2f # v1.4.12
         with:
           upload_sources: true
           download_translations: false
